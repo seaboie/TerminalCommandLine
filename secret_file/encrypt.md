@@ -1,7 +1,7 @@
 ## Encrypt
 
 ```bash
-openssl aes-256-cbc -salt -a -pbkdf2 -in test.jpg -out test.enc
+openssl enc -aes-256-cbc -salt -a -pbkdf2 -in test.jpg -out test.enc
 
 ```
 
@@ -44,6 +44,12 @@ openssl aes-256-cbc -salt -a -pbkdf2 -in test.jpg -out test.enc
 ### 1. OpenSSL คืออะไร?
 
 * **คำอธิบาย:** เป็นเครื่องมือ (Software Library) แบบ Open Source ที่ได้รับความนิยมมากที่สุดในโลก ใช้สำหรับงานด้านความปลอดภัยของข้อมูล (Cryptography) เช่น การเข้ารหัส, ถอดรหัส, การสร้างใบรับรองความปลอดภัย (SSL/TLS certificates) ที่เราใช้กันบนเว็บไซต์
+
+---
+
+### 1.1. enc คืออะไร?
+
+* **คำสั่งเข้ารหัส/ถอดรหัส**
 
 ---
 
