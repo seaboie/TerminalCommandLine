@@ -345,7 +345,7 @@ ffmpeg -i age_encrypt.mp4 -c:v libx264 -preset veryfast -crf 23 -c:a aac -b:a 12
 
 **กรณี C: ต้องการแปลงภาพ แต่ไม่อยากเข้ารหัสเสียงซ้ำ**
 
-ถ้าเสียงต้นฉบับเข้ากันได้กับ MP4 ให้ใช้ `-c:a copy`:
+### 🔥 🔥 🔥 🔥 🔥 ถ้าเสียงต้นฉบับเข้ากันได้กับ MP4 ให้ใช้ `-c:a copy`:
 
 ```bash
 ffmpeg -i age_encrypt.mp4 -c:v libx264 -preset slow -crf 23 -c:a copy -movflags +faststart age_encrypt_audio_copy.mp4
